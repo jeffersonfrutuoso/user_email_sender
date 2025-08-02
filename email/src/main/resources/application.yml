@@ -14,5 +14,12 @@ spring:
       dialect: org.hibernate.dialect.PostgreSQLDialect
 
 
+  rabbitmq:
+    addresses: amqps://duck.lmq.cloudamqp.com
+    username: oluxfypj
+    password: Zp1g9zhPI9GFJuCCWOwuUO_ayKbhIV9E
+    virtual-host: oluxfypj
+
+
 server:
   port: 8080
